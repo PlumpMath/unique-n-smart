@@ -153,51 +153,52 @@ function TranslateSite(lang) {
             [lang]
     );
     $('#text25').html({
-        'es': "Atencion al cliente",
-        'en': "Client support"
+        'es': "Ofertas BBB",
+        'en': ""
     }[lang]);
     $('#text26').html({
-        'es': "asd",
+        'es': "Actualmente existen muchas entidades que proporcionan sitios y sistemas similares a los que proporcionamos, sin embargo nos enorgullecemos de ostentar un servicio BBB, Bueno, Bonito y Barato al lograr los precios mas rentables del mercado.",
         'en': ""
     }[lang]);
+
     $('#text27').html({
-        'es': "Mejores ofertas",
-        'en': ""
+        'es': "Abrimos sus puertas al mundo",
+        'en': "We open the world doors for you"
     }[lang]);
     $('#text28').html({
-        'es': "asd",
+        'es': "Internet es la forma más rentable para el comercio nacional e internacional. Un sitio Web ampliará su base de clientes, socios, distribuidores o proveedores. Puede generar más y más clientes para su negocio sin hacer marketing adicional. Hoy en día, más y más clientes están haciendo compras a través de Internet. ¿Por qué tiene que limitar su negocio a su área local inmediata, cuando todo el mundo puede ser su mercado potencial?",
         'en': ""
     }[lang]);
     $('#text29').html({
-        'es': "Precios modicos",
+        'es': "Le damos una imagen profesional",
         'en': ""
     }[lang]);
     $('#text30').html({
-        'es': "precios",
+        'es': "Su organización debe estar al día con los avances de hoy. Se trata de ser percibido como profesional en el mercado actual. Actualmente, los clientes, empleados y proveedores esperan poder encontrar y comunicarse con un negocio por Internet. Es muy parecido a figurar en las páginas amarillas, si usted no tiene un perfil, los clientes potenciales no van a ser capaces de encontrar su negocio y confiar en el.",
         'en': ""
     }[lang]);
     $('#text31').html({
-        'es': "Desarrollo completo de negocio",
+        'es': "Favorecemos sus ventas online",
         'en': ""
     }[lang]);
     $('#text32').html({
-        'es': "desarrollo",
+        'es': "Vender a través de su sitio Web es mucho más barato y una gran manera de complementar su negocio fuera de línea.",
         'en': ""
     }[lang]);
     $('#text33').html({
-        'es': "Mantenimiento a las soluciones",
+        'es': "Facilitamos la retroalimentacion",
         'en': ""
     }[lang]);
     $('#text34').html({
-        'es': "mantenimiento",
+        'es': "Usted puede obtener información acerca de sus clientes actuales y potenciales mediante el uso de formularios y encuestas en línea. Esto se efectúa proporcionando un formulario de comentarios para hacer más fácil para que sus clientes envíen sus aportaciones. Llevar a cabo encuestas para averiguar cómo usted puede mejorar sus productos y servicios. Sus estadísticas de la Web también pueden ayudarle a entender cómo sus visitantes y clientes utilizan su sitio.",
         'en': ""
     }[lang]);
     $('#text35').html({
-        'es': "Ideas innovadoras",
-        'en': ""
+        'es': "Proveemos impulso a sus ventas",
+        'en': "We can upgrade your selling performance"
     }[lang]);
     $('#text36').html({
-        'es': "innovacion",
+        'es': "A traves de un sitio web usted puede vender productos en cualquier momento. Los clientes potenciales no se limitan a las horas de trabajo. Ellos pueden ir online y comprar productos cuando lo deseen. Una tienda en Internet puede proporcionar un impulso dramático en las ventas.",
         'en': ""
     }[lang]);
     $('#text37').html({
@@ -229,8 +230,8 @@ function TranslateSite(lang) {
         'en': "<strong>Pricing</strong> Tables"
     }[lang]);
     $('#item1').html({
-        'es': "Blog",
-        'en': "Blog"
+        'es': "Economico",
+        'en': "Economic"
     }[lang]);
     $('#item1d').html({
         'es': "Blog promocional utilizando bases de datos, integracion a redes sociales y mas",
@@ -241,18 +242,15 @@ function TranslateSite(lang) {
         'en': "<strong>$<em>150</em></strong><p>Starting price</p>"
     }[lang]);
     $('#item1li').html({
-        'es': "" +
-        "<li><i class=\"fa fa-circle\"></i> Autenticacion</li>" +
-        "<li><i class=\"fa fa-circle\"></i> Redes sociales</li>" +
-        "<li><i class=\"fa fa-circle\"></i> Posicionamiento online</li>",
-        'en': "" +
-        "<li><i class=\"fa fa-circle\"></i> Auth</li>" +
-        "<li><i class=\"fa fa-circle\"></i> Social network</li>" +
-        "<li><i class=\"fa fa-circle\"></i> Online positioning</li>",
+        'es': "",
+        //"<li><i class=\"fa fa-circle\"></i> Autenticacion</li>" +
+        //"<li><i class=\"fa fa-circle\"></i> Redes sociales</li>" +
+        //"<li><i class=\"fa fa-circle\"></i> Posicionamiento online</li>",
+        'en': ""
     }[lang]);
     $('#item2').html({
-        'es': "Gestion",
-        'en': "Management"
+        'es': "Estandar",
+        'en': "Standard"
     }[lang]);
     $('#item2d').html({
         'es': "Sitio de gestion empresarial con soporte para multiples entidades en el negocio",
@@ -263,36 +261,24 @@ function TranslateSite(lang) {
         'en': "<strong>$<em>250</em></strong><p>Starting price</p>"
     }[lang]);
     $('#item2li').html({
-        'es': "" +
-        "<li><i class=\"fa fa-circle\"></i> Autenticacion</li>" +
-        "<li><i class=\"fa fa-circle\"></i> Redes sociales</li>" +
-        "<li><i class=\"fa fa-circle\"></i> Posicionamiento online</li>",
-        'en': "" +
-        "<li><i class=\"fa fa-circle\"></i> Auth</li>" +
-        "<li><i class=\"fa fa-circle\"></i> Social network</li>" +
-        "<li><i class=\"fa fa-circle\"></i> Online positioning</li>",
+        'es': "",
+        'en': ""
     }[lang]);
     $('#item3').html({
-        'es': "Sitio web",
-        'en': "Full Web Site"
+        'es': "Profesional",
+        'en': "Profesional"
     }[lang]);
     $('#item3d').html({
-        'es': "Sitio de gestion empresarial con soporte para multiples entidades en el negocio",
+        'es': "Aplicacion web completa, con frontend y backend",
         'en': "Management site with multiple business entities support"
     }[lang]);
     $('#item3p').html({
-        'es': "<strong>$<em>300</em></strong><p>Precio inicial</p>",
-        'en': "<strong>$<em>300</em></strong><p>Starting price</p>"
+        'es': "<strong>$<em>400</em></strong><p>Precio inicial</p>",
+        'en': "<strong>$<em>400</em></strong><p>Starting price</p>"
     }[lang]);
     $('#item3li').html({
-        'es': "" +
-        "<li><i class=\"fa fa-circle\"></i> Autenticacion</li>" +
-        "<li><i class=\"fa fa-circle\"></i> Redes sociales</li>" +
-        "<li><i class=\"fa fa-circle\"></i> Posicionamiento online</li>",
-        'en': "" +
-        "<li><i class=\"fa fa-circle\"></i> Auth</li>" +
-        "<li><i class=\"fa fa-circle\"></i> Social network</li>" +
-        "<li><i class=\"fa fa-circle\"></i> Online positioning</li>",
+        'es': "",
+        'en': ""
     }[lang]);
     $('#text41').html({
         'es': "Testimonios",
