@@ -1869,3 +1869,7 @@ Styler Panel
     top: 2px;
     position: relative;
 }
+
+ul.list-unstyled li {
+    margin: 10px;
+}
